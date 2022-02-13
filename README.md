@@ -12,7 +12,8 @@ At 4YFN – MWC Barcelona 2022, the organization told us to work as the Barcelon
 
 - Task 5 → A view that allows to see the whole user profile with the above data.
 
-<a name="getting-started"/>
+-[Getting Started](#getting-started)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
