@@ -30,7 +30,7 @@ At 4YFN – MWC Barcelona 2022, the organization told us to work as the Barcelon
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+If you want a copy of the project up and running on your local machine for development and testing purposes. Feel free to clone the repository.
 
 ### Prerequisites
 
