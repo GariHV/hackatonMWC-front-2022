@@ -8,80 +8,40 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+If you want to use this application and customize it you will need to install:
 
+- Node.js
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+https://nodejs.org/es/download/
 ```
 
-And repeat
-
+- Sass:
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm install -g sass
 ```
 
-### And coding style tests
+All the customize features are implemented with Sass. Taking that into account, you will need to understand how to compile the Sass code into Css.
 
-Explain what these tests test and why
+If you use the main structure implemented in this repository, just introduce the following code in the Terminal:
 
 ```
-Give an example
+sass --watch assets/scss/index.scss:assets/css/index.css
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Use this URL to use the application: https://fervent-torvalds-3b6c3f.netlify.app/
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [JavaScript](https://www.javascript.com/) - The main technology used to create the web's interactions.
+* [Sass](https://sass-lang.com/) - Technology used as a stylesheet language that’s compiled to CSS.
+* [HTML5](https://developer.mozilla.org/es/docs/Glossary/HTML5) - Used as the web's structure.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Garikoitz Herrero Vargas** - [GariHV](https://github.com/GariHV)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+## Screenshots
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+![Screenshot](assets/img/Captura de pantalla 2022-02-13 a las 12.56.27.png)
