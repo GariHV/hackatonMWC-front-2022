@@ -2,15 +2,17 @@
 @use "../functions/functions.scss" as f;
 
 #main-form-body{
-    background-color: rgb(4, 4, 26);
+    background-color: v.$background-bone;
     height: 100vh;
 }
 
 #progress-bar{
+    border: 1.5px solid v.$btnBlue !important;
+    border-radius: 5px;
     position: absolute;
     top: 5%;
     left: 10%;
-    background-color: rgb(4, 4, 26);
+    background-color: v.$background-bone;
     width: 80%;
 }
 
@@ -18,10 +20,10 @@
 
 #main-form{
     @include f.flex(column);
-    color: white;
+    color: black;
     border:3px solid v.$border-color;
     border-radius: 2%;
-    background-color: v.$clear-black;
+    background-color: v.$clear-blue;
     height: 575px;
     width: 700px;
     position: absolute;
@@ -32,6 +34,9 @@
     padding: 30px 30px 50px 30px;
     div{
         .form-group{
+            input{
+                border: 1px solid rgb(182, 180, 180) !important;
+            }
             margin: 10px;
             width: 400px;
             .description-input-main-form{
@@ -65,10 +70,10 @@
 
 #main-modal{
     @include f.flex(column);
-    color: white;
+    color: black;
     border:3px solid v.$border-color;
     border-radius: 2%;
-    background-color: v.$clear-black;
+    background-color: v.$clear-blue;
     height: 575px;
     width: 700px;
     position: absolute;

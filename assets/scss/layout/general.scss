@@ -6,7 +6,7 @@
 
 .general-body{
     margin: 0;
-    background-color:v.$dark-black ;
+    background-color:v.$background-bone ;
     @include f.flex(column);
 }
 
@@ -14,13 +14,15 @@
 
 
 #userMainInfo{
-    color: white;
-    background-color:v.$clear-black ;
+    color: black;
+    border: 3px solid v.$border-color;
+    background-color:v.$clear-blue ;
     font-size: 1.2em;
     @include f.flex(column);
     header{
         img{
             width: 100%;
+            border-bottom: 3px solid v.$border-color;
         }
     }
     figure{
@@ -59,8 +61,9 @@
 }
 
 #userExperience{
-    color: white;
-    background-color:v.$clear-black ;
+    color: black;
+    background-color:v.$clear-blue ;
+    border: 3px solid v.$border-color;
     font-size: 1.2em;
     @include f.flex(column);
     .titleStack{
@@ -68,7 +71,7 @@
         top: -13px;
         left: 3%;
         max-width: fit-content;
-        background-color: v.$clear-black;
+        background-color: v.$clear-blue;
         margin: 0;
         padding: 0 10px;
     }

@@ -13,14 +13,12 @@
     <body class="general-body">
         
         <section class="caja" id = "userMainInfo">
-           
             <header id="customImage">
-                <img src="https://raw.githubusercontent.com/nuwe-io/files_storage/main/nuwe_bgr.png" alt="">
+                <img id="userBackground" src="" alt="">
                 <button id="btnEditUser" class="btnEdit btnEditUser"><i class="fa-solid fa-pen-to-square"></i></button>
             </header>
             <figure id="avatar">
-                <img id="dicebearAvatarMini" src="" alt="" style="cursor: zoom-in;"
-                    onclick="document.getElementById('dicebearAvatarBig').style.display='block'">
+                <img id="dicebearAvatarMini" src="" alt="" style="cursor: zoom-in;">
                 <figcaption id="userName">
                     <input class="inputView" type="text" id="generalUsernameInput">
                 </figcaption>
@@ -35,24 +33,24 @@
         <section class="caja" id= "userExperience">
             <button id="btnEditExperience" class="btnEdit btneditLaboral"><i
                     class="fa-solid fa-pen-to-square"></i></button>
-            <h2 id="userExperienceTitle">Professional Information</h2>
+            <h2 id="userExperienceTitle" class="user-experience-title"><b>Professional Information</b></h2>
             <article id="yearsExperience">
-                <h6>Years of Experience</h6>
+                <h4 class="user-experience-subtitle"><u>Years of Experience</u></h4>
                 <input class="inputView" type="text" id="generalYearsInput">
             </article>
             <article id="definedSector">
-                <h6>Sector in the Industry</h6>
+                <h4 class="user-experience-subtitle"><u>Sector in the Industry</u></h4>
                 <input class="inputView" type="text" id="generalSectorInput"> 
             </article>
             <article class="caja" > 
-             <p class="titleStack">Stack definido por el usuario</p>
-             <div id ="stacks"></div>
+                <p class="titleStack">Stack definido por el usuario</p>
+                <div id ="stacks"></div>
             </article>
         </section>
         <section>
             <div id="generalModal" class="modal">
                 <div >
-                    <span id="closeModal" class="close">&times;</span>
+                    <span id="closeModal" class="close"></span>
                     <div  id="contentModal">
                         <p>Some text in the Modal..</p>
                     </div>

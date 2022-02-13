@@ -2,7 +2,7 @@
 @use "../variables/variables-generales.scss" as v;
 
 .btn-sign-in{
-    background-color: v.$green;
+    background-color: v.$btnBlue;
     color: white;
 	border: none;
 	padding: 0;
@@ -15,17 +15,17 @@
     border-radius: 5px;
     font-family: v.$font-size;
     font-weight: bold;
-    background-color: v.$green;
+    background-color: v.$btnBlue;
 }
 .btnEdit{
     margin: 10px;
     padding: 5px;
     position:relative;
     left:45%;
-    background-color: v.$clear-black ;
+    background-color: v.$clear-blue ;
     border: none;
     i{
-        color:white;
+        color:v.$border-color;
     }
 }
 .close{

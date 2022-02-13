@@ -1,5 +1,5 @@
 .btn-sign-in {
-  background-color: #569B51;
+  background-color: #0a66c2;
   color: white;
   border: none;
   padding: 0;
@@ -12,7 +12,7 @@
   border-radius: 5px;
   font-family: 0.8888888889rem;
   font-weight: bold;
-  background-color: #569B51;
+  background-color: #0a66c2;
 }
 
 .btnEdit {
@@ -20,11 +20,11 @@
   padding: 5px;
   position: relative;
   left: 45%;
-  background-color: #1c1d2b;
+  background-color: white;
   border: none;
 }
 .btnEdit i {
-  color: white;
+  color: #04305c;
 }
 
 .close {
@@ -35,7 +35,7 @@
 }
 
 .caja {
-  border: solid 2px #404560;
+  border: solid 2px #04305c;
   border-radius: 5px;
   width: 75%;
   text-align: center;
@@ -50,9 +50,9 @@
 }
 
 .inputView {
-  background-color: #1c1d2b;
+  background-color: white;
   border: none;
-  color: white;
+  color: black;
   text-align: center;
   pointer-events: none;
 }
@@ -62,12 +62,13 @@
   display: inline-block;
 }
 .autocomplete input {
-  border: 1px solid transparent;
-  background-color: #1c1d2b;
+  border: 1px solid #b6b4b4 !important;
+  background-color: white;
   padding: 10px;
   font-size: 16px;
 }
 .autocomplete .country-main-form {
+  border: 1px solid #b6b4b4 !important;
   background-color: white;
   width: 100%;
 }
@@ -84,17 +85,17 @@
 .autocomplete .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
-  background-color: grey;
+  background-color: #f3f2ef;
   color: black;
   border-bottom: 1px solid #d4d4d4;
 }
 .autocomplete .autocomplete-items div:hover {
-  background-color: #1c1d2b;
-  color: white;
+  background-color: DodgerBlue !important;
+  color: black;
 }
 .autocomplete .autocomplete-active {
   background-color: DodgerBlue !important;
-  color: #ffffff;
+  color: black;
 }
 
 #stacks {
@@ -114,18 +115,18 @@
   max-height: 40px;
 }
 #stacks figure figcaption {
-  border: solid 2px #404560;
+  border: solid 2px #04305c;
   border-radius: 5px;
   border-radius: 200px;
   padding: 7px;
 }
 #stacks figure figcaption a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bolder;
 }
 #stacks figure figcaption a:-webkit-any-link {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -183,15 +184,17 @@
 }
 
 #main-form-body {
-  background-color: #04041a;
+  background-color: #f3f2ef;
   height: 100vh;
 }
 
 #progress-bar {
+  border: 1.5px solid #0a66c2 !important;
+  border-radius: 5px;
   position: absolute;
   top: 5%;
   left: 10%;
-  background-color: #04041a;
+  background-color: #f3f2ef;
   width: 80%;
 }
 
@@ -200,10 +203,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
-  border: 3px solid #404560;
+  color: black;
+  border: 3px solid #04305c;
   border-radius: 2%;
-  background-color: #1c1d2b;
+  background-color: white;
   height: 575px;
   width: 700px;
   position: absolute;
@@ -217,6 +220,9 @@
   margin: 10px;
   width: 400px;
 }
+#main-form div .form-group input {
+  border: 1px solid #b6b4b4 !important;
+}
 #main-form div .form-group .description-input-main-form {
   width: 100%;
   display: block;
@@ -226,7 +232,7 @@
   flex-wrap: wrap;
   justify-items: left;
   flex-direction: row;
-  border: 3px solid #404560;
+  border: 3px solid #04305c;
   min-height: 50px;
   height: auto;
 }
@@ -248,10 +254,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
-  border: 3px solid #404560;
+  color: black;
+  border: 3px solid #04305c;
   border-radius: 2%;
-  background-color: #1c1d2b;
+  background-color: white;
   height: 575px;
   width: 700px;
   position: absolute;
@@ -290,7 +296,7 @@
   flex-wrap: wrap;
   justify-items: left;
   flex-direction: row;
-  border: 3px solid #404560;
+  border: 3px solid #04305c;
   min-height: 50px;
   height: auto;
 }
@@ -309,7 +315,7 @@
 
 .general-body {
   margin: 0;
-  background-color: #14151f;
+  background-color: #f3f2ef;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,8 +323,9 @@
 }
 
 #userMainInfo {
-  color: white;
-  background-color: #1c1d2b;
+  color: black;
+  border: 3px solid #04305c;
+  background-color: white;
   font-size: 1.2em;
   display: flex;
   justify-content: center;
@@ -327,6 +334,7 @@
 }
 #userMainInfo header img {
   width: 100%;
+  border-bottom: 3px solid #04305c;
 }
 #userMainInfo figure {
   position: relative;
@@ -344,7 +352,7 @@
 #userMainInfo figure img {
   width: 40%;
   height: 40%;
-  border: solid 2px #404560;
+  border: solid 2px #04305c;
   border-radius: 5px;
   border-radius: 200%;
 }
@@ -363,8 +371,9 @@
 }
 
 #userExperience {
-  color: white;
-  background-color: #1c1d2b;
+  color: black;
+  background-color: white;
+  border: 3px solid #04305c;
   font-size: 1.2em;
   display: flex;
   justify-content: center;
@@ -376,7 +385,7 @@
   top: -13px;
   left: 3%;
   max-width: fit-content;
-  background-color: #1c1d2b;
+  background-color: white;
   margin: 0;
   padding: 0 10px;
 }

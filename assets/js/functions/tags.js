@@ -1,12 +1,15 @@
 import * as va from "../variables/variable.js"
 import * as u from "./users.js"
 
+let idSkill = 0;
 export function createTag(value,padre=true){
+    idSkill++;
     let dad=document.getElementById("tagsFather");
     let tag=document.createElement("div");
     let close=document.createElement("i");
     close.classList="fas fa-times-circle";
     tag.classList="tag"
+    tag.id = idSkill;
     tag.innerHTML= value;
     tag.appendChild(close)
     if (padre==true){
@@ -26,14 +29,22 @@ export function getFinalSkills(value){
 }
 
 export function closesTag(e){
+    const user = getUserInfo();
     let dead=document.getElementById(e.srcElement.parentNode.id);
-    dead.remove()
+    let actualStacks = user[0].stacks;
+    let deadStackIndex = actualStacks.indexOf(e.srcElement.parentNode.innerText);
+    actualStacks.splice(deadStackIndex, 1)
+    let obj = userStacks(actualStacks);
+    localStorage.clear();
+    let userBook = loadUser();
+    userBook.push(obj);
+    localStorage.setItem('userBook', JSON.stringify(userBook))
+    dead.remove();
 }
 
 
 export function addUserStack(value) {
     let finalStack = getFinalSkills(value);
-    console.log(finalStack);
     let obj = userStacks(finalStack);
     localStorage.clear();
     let userBook = loadUser();

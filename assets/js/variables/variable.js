@@ -5,7 +5,7 @@ export let finalSkills = [];
 
 export function skills(){
     const skills=[]
-    fetch("../../recurses/logo.json")
+    fetch("../../resources/logo.json")
     .then(response=> response.json())
     .then(data=>{
         for (const d of data) {

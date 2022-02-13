@@ -119,7 +119,7 @@ async function getSkills(arr){
 }
 
 async function fetchLogo(skill){
-    let request =await fetch("../../recurses/logo.json")
+    let request = await fetch("../../resources/logo.json")
     let data =await request.json()
     let obj =data.filter(x=> x.name ==skill)
     return obj

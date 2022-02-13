@@ -148,25 +148,12 @@ function modalExperience(obj) {
                 <label for="inputUser4">Year of experience</label>
                 <select class='form-control' name="years" id="">
                     <option value="${obj.years}">${obj.years}</option>
-                    <option value="Junior">Junior(0&lt;2 Y) </option>
-                    <option value="semi-Senior"> semi Senior(2&lt;6 Y)</option>
-                    <option value="Senior">Senior(6 &gt; Y)</option>
+                    <option value = "Junior (0 < 2 Y)" > Junior(0 &lt; 2 Y) </option> 
+                    <option value = "semi-Senior (2 < 6 Y)" > semi Senior(2 &lt; 6 Y) </option> 
+                    <option value = "Senior (6 > Y)" > Senior(6 &gt; Y) </option>
                 </select>
             </div>
             </div>
-            <div class="form-row">
-                        <section>
-                            <div class='form-group'>
-                                <label for='inputAddress'>Stack</label>
-                                <section id='tagsFather'>
-                                <div>${obj.stacks}</div>
-                                </section>
-                                <div class='autocomplete'>
-                                    <input type='text' class='form-control' id='inputSkill' placeholder='Aquí podrás definir tu stack de hard skills con las habilidades que utilizas recuentemente.'>
-                                </div>
-                            </div>
-                        </section>
-        </div>
         <button id="mainFormSubmit" type="button" class="btn-sign-in">Sign in</button>
     </form>
 `)

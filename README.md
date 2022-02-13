@@ -1,1 +1,1 @@
-# GariHV (Front Developer), 4YFN - MWC Barcelona 2022
+# GariHV - Frontend proposal // 4YFN - MWC Barcelona 2022
