@@ -6,8 +6,8 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
 - [Extras explanation](#extras-explanation)
-  - [Autocomplete function](#autocomplete-function)
   - [LocalStorage](#localstorage)
+  - [Autocomplete function](#autocomplete-function)
   - [Technologies Display](#technologies-display)
   - [Getting Started](#getting-started)
 - [Getting Started](#getting-started)
@@ -56,18 +56,21 @@ sass --watch assets/scss/index.scss:assets/css/index.css
 
 ## Extras explanation
 
-### Autocomplete function
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### LocalStorage
 
+After reading and analizing the requisites of the contest, it was clear that just a single user was going to use the application at the same time. Taking that into account, I decided to use localStorage to save the information introduced by the user in the form's pages.
+
+Every time that the "Next" button of the first form page is pressed, a "user" object is created in the localStorage. The object stores all the information introducen in every single input of the first and the second form.
+
+### Autocomplete function
+
+In both the first and the second form, the user is offered options based on the letters that is pressing. All the options are bolded and the selected one have a different hover display.
+
 ### Technologies display
 
+Once the user enters all the information asked in the second form, I take all the information stored and fill the User-Info view fields.
 
-### Technologies display
-
-
+Although the first part is as simple as that, the technologies introduced by the user are stored in an Array. To show the Stacks I decided to iterate the Array and search from the resources/logos.json file to find each technology logo's, tag's and webpage's.
 
 ## Deployment
 
