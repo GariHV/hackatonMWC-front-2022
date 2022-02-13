@@ -9,6 +9,8 @@
   - [LocalStorage](#localstorage)
   - [Autocomplete function](#autocomplete-function)
   - [Technologies Display](#technologies-display)
+  - [Avatar](#avatar)
+  - [Background](#background)
 - [Deployment](#deployment)
 - [Built With](#built-with)
 - [Authors](#authors)
@@ -71,6 +73,14 @@ In both the first and the second form, the user is offered options based on the 
 Once the user enters all the information asked in the second form, I take all the information stored and fill the User-Info view fields.
 
 Although the first part is as simple as that, the technologies introduced by the user are stored in an Array. To show the Stacks I decided to iterate the Array and search from the resources/logos.json file to find each technology logo's, tag's and webpage's.
+
+### Avatar
+
+As an extra, I added a functionality that allows the user to change the default's avatar (which is generated aleatorally depending on the username) once the user clicks on the avatar's image.
+
+### Background
+
+Same as the avatar option, I added a functionality that allows the user to change de default's image once the background is clicked.
 
 ## Deployment
 
