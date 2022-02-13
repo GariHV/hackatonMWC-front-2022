@@ -291,8 +291,8 @@
   transition: transform 0.25s ease;
 }
 #main-modal .avatar-variant-container .avatar-variant-div .avatar-variants:hover {
-  border: 1px solid #0a66c2;
-  transform: scale(1.2);
+  border: 3.5px solid #0a66c2;
+  transform: scale(1.1);
 }
 #main-modal div .form-group {
   margin: 10px;
