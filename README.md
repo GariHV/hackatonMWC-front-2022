@@ -9,10 +9,10 @@
   - [LocalStorage](#localstorage)
   - [Autocomplete function](#autocomplete-function)
   - [Technologies Display](#technologies-display)
-  - [Getting Started](#getting-started)
-- [Getting Started](#getting-started)
-- [Getting Started](#getting-started)
-- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Built With](#built-with)
+- [Authors](#authors)
+- [Screenshots](#screenshots)
 
 ## Introduction
 
