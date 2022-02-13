@@ -76,16 +76,16 @@ function modalAvatarVersions(obj) {
     <form id ="main-modal" class="modalForm">
         <div class ="avatar-variant-container">
             <div class="form-row avatar-variant-div">
-                <img class="avatar-variants" src="https://avatars.dicebear.com/api/avataaars/${obj.username}.svg?background=white" alt="">
+                <img class = "avatar-variants" src = "https://avatars.dicebear.com/api/big-ears-neutral/${obj.username}.svg"alt = "">
             </div>
             <div class="form-row avatar-variant-div">
-                <img class="avatar-variants" src="https://avatars.dicebear.com/api/big-ears/${obj.username}.svg?background=white" alt="">
+                <img class="avatar-variants" src="https://avatars.dicebear.com/api/pixel-art-neutral/${obj.username}.svg" alt="">
             </div>
             <div class="form-row avatar-variant-div">
-                <img class="avatar-variants" src="https://avatars.dicebear.com/api/miniavs/${obj.username}.svg?background=white" alt="">
+                <img class = "avatar-variants" src = "https://avatars.dicebear.com/api/croodles-neutral/${obj.username}.svg?background=white" alt = "">
             </div>
             <div class="form-row avatar-variant-div">
-                <img class="avatar-variants" src="https://avatars.dicebear.com/api/open-peeps/${obj.username}.svg?background=white" alt="">
+                <img class = "avatar-variants" src = "https://avatars.dicebear.com/api/initials/${obj.username}.svg" alt = "">
         </div>
     </form>`)
 }

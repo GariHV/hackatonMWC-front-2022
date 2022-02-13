@@ -36,7 +36,7 @@ function userBio(){
     return {
         background: "https://raw.githubusercontent.com/nuwe-io/files_storage/main/nuwe_bgr.png",
         email: dom.indexMailInput.value,
-        avatar: "https://avatars.dicebear.com/api/pixel-art/" + dom.indexUsernameInput.value + ".svg?background=white",
+        avatar: "https://avatars.dicebear.com/api/adventurer-neutral/" + dom.indexUsernameInput.value + ".svg",
         username: dom.indexUsernameInput.value,
         city: dom.indexCityInput.value,
         country: dom.indexCountryInput.value,

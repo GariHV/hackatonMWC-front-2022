@@ -13,6 +13,11 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
+    #stacks{
+        figcaption{
+            width: fit-content;
+        }
+    }
 }
 .inputView{
     background-color: v.$clear-blue;

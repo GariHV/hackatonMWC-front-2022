@@ -78,20 +78,29 @@
     width: 700px;
     position: absolute;
     z-index: 15;
-    top: 50%;
+    top: 45%;
     left: 35%;
     margin: -275px 0 0 -350px;
     padding: 30px 30px 50px 30px;
+
     .avatar-variant-container{
-        height: 475px;
-        width: 600px;
+        height: 500px;
+        width: 650px;
+        left: 50%;
+        top: 50%;
         @include f.flex-wrap(row);
         .avatar-variant-div{
             height: auto;
             width: auto;
             .avatar-variants{
+                border: 1px solid v.$border-color;
                 height: 90%;
-                width: 90%;
+                width: 74.5%;
+                transition: transform .25s ease;
+            }
+            .avatar-variants:hover{
+                border: 1px solid v.$btnBlue;
+                transform: scale(1.2);
             }
         }
     }

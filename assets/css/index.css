@@ -48,6 +48,9 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
+.caja #stacks figcaption {
+  width: fit-content;
+}
 
 .inputView {
   background-color: white;
@@ -262,14 +265,16 @@
   width: 700px;
   position: absolute;
   z-index: 15;
-  top: 50%;
+  top: 45%;
   left: 35%;
   margin: -275px 0 0 -350px;
   padding: 30px 30px 50px 30px;
 }
 #main-modal .avatar-variant-container {
-  height: 475px;
-  width: 600px;
+  height: 500px;
+  width: 650px;
+  left: 50%;
+  top: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-items: left;
@@ -280,8 +285,14 @@
   width: auto;
 }
 #main-modal .avatar-variant-container .avatar-variant-div .avatar-variants {
+  border: 1px solid #04305c;
   height: 90%;
-  width: 90%;
+  width: 74.5%;
+  transition: transform 0.25s ease;
+}
+#main-modal .avatar-variant-container .avatar-variant-div .avatar-variants:hover {
+  border: 1px solid #0a66c2;
+  transform: scale(1.2);
 }
 #main-modal div .form-group {
   margin: 10px;
@@ -359,6 +370,7 @@
 #userMainInfo figure figcaption {
   font-size: 2em;
   font-weight: bolder;
+  max-width: fit-content;
 }
 #userMainInfo .userInfo {
   position: relative;
