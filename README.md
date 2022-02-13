@@ -44,4 +44,4 @@ Use this URL to use the application: https://fervent-torvalds-3b6c3f.netlify.app
 
 ## Screenshots
 
-![Screenshot](assets/img/Captura de pantalla 2022-02-13 a las 12.56.27.png)
+![Screenshot](assets/img/first-form-autocomplete-country.png)
