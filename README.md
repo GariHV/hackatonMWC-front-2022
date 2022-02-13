@@ -42,8 +42,6 @@ Use this URL to use the application: https://fervent-torvalds-3b6c3f.netlify.app
 
 * **Garikoitz Herrero Vargas** - [GariHV](https://github.com/GariHV)
 
-## Acknowledgments
+## Screenshots
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+![Screenshot](assets/img/Captura de pantalla 2022-02-13 a las 12.56.27.png)
