@@ -1,5 +1,21 @@
 # GariHV - Frontend proposal // 4YFN - MWC Barcelona 2022
 
+## Index
+
+-[Introduction](#introduction)
+-[Getting Started](#getting-started)
+  -[Prerequisites](#prerequisites)
+-[Extras explanation](#extras-explanation)
+  -[Autocomplete function](#autocomplete-function)
+  -[Getting Started](#getting-started)
+  -[Getting Started](#getting-started)
+  -[Getting Started](#getting-started)
+-[Getting Started](#getting-started)
+-[Getting Started](#getting-started)
+-[Getting Started](#getting-started)
+
+## Introduction
+
 At 4YFN – MWC Barcelona 2022, the organization told us to work as the Barcelona Digital Talent has hired us to develop their website. We could use the technology which we thought is the most convenient as long as we followed this points:
 
 - Task 1 → Form that allows to enter the following data: email, full name, brief description, country and city of residence.
@@ -11,8 +27,6 @@ At 4YFN – MWC Barcelona 2022, the organization told us to work as the Barcelon
 - Task 4 → The skills are tagged somewhere in the profile.
 
 - Task 5 → A view that allows to see the whole user profile with the above data.
-
--[Getting Started](#getting-started)
 
 ## Getting Started
 
@@ -39,6 +53,21 @@ If you use the main structure implemented in this repository, just introduce the
 ```
 sass --watch assets/scss/index.scss:assets/css/index.css
 ```
+
+## Extras explanation
+
+### Autocomplete function
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### LocalStorage
+
+### Technologies display
+
+
+### Technologies display
+
+
 
 ## Deployment
 
