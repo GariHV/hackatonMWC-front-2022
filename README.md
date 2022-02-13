@@ -3,6 +3,7 @@
 ## Index
 
 -[Introduction](#introduction).
+
 -[Getting Started](#getting-started)
   -[Prerequisites](#prerequisites)
 -[Extras explanation](#extras-explanation)
