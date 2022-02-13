@@ -1,0 +1,21 @@
+@use "../variables/index.scss" as f;
+
+
+@mixin flex($direction){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin flex-wrap($direction){
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: left;
+    flex-direction: $direction;
+}
+
+@mixin border(){
+    border:solid 2px f.$border-color ;
+    border-radius: 5px;
+}   

@@ -1,0 +1,75 @@
+@use "../functions/functions.scss" as f;
+@use "../variables/index.scss" as v;
+
+
+
+
+.general-body{
+    margin: 0;
+    background-color:v.$dark-black ;
+    @include f.flex(column);
+}
+
+
+
+
+#userMainInfo{
+    color: white;
+    background-color:v.$clear-black ;
+    font-size: 1.2em;
+    @include f.flex(column);
+    header{
+        img{
+            width: 100%;
+        }
+    }
+    figure{
+            position: relative;
+
+            @media only screen and (min-width: 530px) {
+                top: -140px;
+            }
+            @media only screen and (max-width: 530px) {
+                top: -110px;
+        }
+        img{
+            width: 40%;
+            height: 40%;
+            @include f.border();
+            border-radius: 200%;
+        }
+        figcaption{
+            font-size: 2em;
+            font-weight: bolder;
+        }
+    }
+  
+    .userInfo{
+        position: relative;
+        top: -130px;
+        width: 100%;
+        .description{
+            // width: 100%;
+            textarea{
+                width: 70%; 
+                max-height: max-content!important;
+            }
+        }
+    }
+}
+
+#userExperience{
+    color: white;
+    background-color:v.$clear-black ;
+    font-size: 1.2em;
+    @include f.flex(column);
+    .titleStack{
+        position: relative;
+        top: -13px;
+        left: 3%;
+        max-width: fit-content;
+        background-color: v.$clear-black;
+        margin: 0;
+        padding: 0 10px;
+    }
+}

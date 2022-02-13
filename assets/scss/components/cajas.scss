@@ -1,0 +1,23 @@
+@use "../functions/index.scss" as f;
+@use "../variables/index.scss" as v;
+
+.caja{
+    @include f.border();
+    width: 75%;
+    text-align: center;
+    margin: 2% 5%;
+    .user-experience-title{
+        margin-bottom: 30px;
+    }
+    .user-experience-subtitle{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+.inputView{
+    background-color: v.$clear-black;
+    border: none;
+    color:white;
+    text-align: center;
+    pointer-events: none;
+}

@@ -1,0 +1,30 @@
+@use "../functions/index.scss" as f;
+
+#stacks{
+    padding: 20px;
+    @include f.flex(row);
+    flex-wrap: wrap;
+    figure{
+        margin: 10px;
+        max-width: 100px;
+        img{
+            max-width: 40px;
+            max-height: 40px
+        }
+        figcaption{
+            @include f.border();
+            border-radius: 200px;
+            padding: 7px;
+            a{
+                color:white;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+            a:-webkit-any-link{
+                color:white;
+                text-decoration: none;
+                font-weight: bolder;
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+@use "../variables/index.scss" as v;
+@use "../functions/functions.scss" as f;
+
+#main-form-body{
+    background-color: rgb(4, 4, 26);
+    height: 100vh;
+}
+
+#progress-bar{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: rgb(4, 4, 26);
+    width: 80%;
+}
+
+
+
+#main-form{
+    @include f.flex(column);
+    color: white;
+    border:3px solid v.$border-color;
+    border-radius: 2%;
+    background-color: v.$clear-black;
+    height: 575px;
+    width: 700px;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -275px 0 0 -350px;
+    padding: 30px 30px 50px 30px;
+    div{
+        .form-group{
+            margin: 10px;
+            width: 400px;
+            .description-input-main-form{
+                width: 100%;
+                display: block;
+            }
+            #tagsFather{
+                @include f.flex-wrap(row);
+                border:3px solid v.$border-color;
+                min-height: 50px;
+                height: auto;
+                .tag{
+                    border:1px solid grey;
+                    border-radius: 25px;
+                    height: 25px;
+                    margin: 3px;
+                    padding: 0px 3px 0px 3px;
+                    width: auto;
+                }
+            }
+            div{
+                .skill-input{
+                    width: 200%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+#main-modal{
+    @include f.flex(column);
+    color: white;
+    border:3px solid v.$border-color;
+    border-radius: 2%;
+    background-color: v.$clear-black;
+    height: 575px;
+    width: 700px;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 35%;
+    margin: -275px 0 0 -350px;
+    padding: 30px 30px 50px 30px;
+    .avatar-variant-container{
+        height: 475px;
+        width: 600px;
+        @include f.flex-wrap(row);
+        .avatar-variant-div{
+            height: auto;
+            width: auto;
+            .avatar-variants{
+                height: 90%;
+                width: 90%;
+            }
+        }
+    }
+    div{
+        .form-group{
+            margin: 10px;
+            width: 400px;
+            .description-input-main-form{
+                width: 100%;
+                display: block;
+            }
+            #tagsFather{
+                @include f.flex-wrap(row);
+                border:3px solid v.$border-color;
+                min-height: 50px;
+                height: auto;
+                .tag{
+                    border:1px solid grey;
+                    border-radius: 25px;
+                    height: 25px;
+                    margin: 3px;
+                    padding: 0px 3px 0px 3px;
+                    width: auto;
+                }
+            }
+            div{
+                .skill-input{
+                    width: 200%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

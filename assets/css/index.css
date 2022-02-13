@@ -1,0 +1,384 @@
+.btn-sign-in {
+  background-color: #569B51;
+  color: white;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-family: 0.8888888889rem;
+  font-weight: bold;
+  background-color: #569B51;
+}
+
+.btnEdit {
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+  left: 45%;
+  background-color: #1c1d2b;
+  border: none;
+}
+.btnEdit i {
+  color: white;
+}
+
+.close {
+  position: relative;
+  top: 50px;
+  left: -25%;
+  z-index: 100;
+}
+
+.caja {
+  border: solid 2px #404560;
+  border-radius: 5px;
+  width: 75%;
+  text-align: center;
+  margin: 2% 5%;
+}
+.caja .user-experience-title {
+  margin-bottom: 30px;
+}
+.caja .user-experience-subtitle {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.inputView {
+  background-color: #1c1d2b;
+  border: none;
+  color: white;
+  text-align: center;
+  pointer-events: none;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+.autocomplete input {
+  border: 1px solid transparent;
+  background-color: #1c1d2b;
+  padding: 10px;
+  font-size: 16px;
+}
+.autocomplete .country-main-form {
+  background-color: white;
+  width: 100%;
+}
+.autocomplete .autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete .autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: grey;
+  color: black;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete .autocomplete-items div:hover {
+  background-color: #1c1d2b;
+  color: white;
+}
+.autocomplete .autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+#stacks {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#stacks figure {
+  margin: 10px;
+  max-width: 100px;
+}
+#stacks figure img {
+  max-width: 40px;
+  max-height: 40px;
+}
+#stacks figure figcaption {
+  border: solid 2px #404560;
+  border-radius: 5px;
+  border-radius: 200px;
+  padding: 7px;
+}
+#stacks figure figcaption a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#stacks figure figcaption a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: auto;
+}
+
+.modalForm {
+  height: 80% !important;
+  width: 60% !important;
+  margin: -20% 0 0 -17% !important;
+}
+
+/* The Close Button */
+.close {
+  padding-top: 10%;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-form-body {
+  background-color: #04041a;
+  height: 100vh;
+}
+
+#progress-bar {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  background-color: #04041a;
+  width: 80%;
+}
+
+#main-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  border: 3px solid #404560;
+  border-radius: 2%;
+  background-color: #1c1d2b;
+  height: 575px;
+  width: 700px;
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -275px 0 0 -350px;
+  padding: 30px 30px 50px 30px;
+}
+#main-form div .form-group {
+  margin: 10px;
+  width: 400px;
+}
+#main-form div .form-group .description-input-main-form {
+  width: 100%;
+  display: block;
+}
+#main-form div .form-group #tagsFather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: left;
+  flex-direction: row;
+  border: 3px solid #404560;
+  min-height: 50px;
+  height: auto;
+}
+#main-form div .form-group #tagsFather .tag {
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 25px;
+  margin: 3px;
+  padding: 0px 3px 0px 3px;
+  width: auto;
+}
+#main-form div .form-group div .skill-input {
+  width: 200%;
+  margin-top: 10px;
+}
+
+#main-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  border: 3px solid #404560;
+  border-radius: 2%;
+  background-color: #1c1d2b;
+  height: 575px;
+  width: 700px;
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 35%;
+  margin: -275px 0 0 -350px;
+  padding: 30px 30px 50px 30px;
+}
+#main-modal .avatar-variant-container {
+  height: 475px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: left;
+  flex-direction: row;
+}
+#main-modal .avatar-variant-container .avatar-variant-div {
+  height: auto;
+  width: auto;
+}
+#main-modal .avatar-variant-container .avatar-variant-div .avatar-variants {
+  height: 90%;
+  width: 90%;
+}
+#main-modal div .form-group {
+  margin: 10px;
+  width: 400px;
+}
+#main-modal div .form-group .description-input-main-form {
+  width: 100%;
+  display: block;
+}
+#main-modal div .form-group #tagsFather {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: left;
+  flex-direction: row;
+  border: 3px solid #404560;
+  min-height: 50px;
+  height: auto;
+}
+#main-modal div .form-group #tagsFather .tag {
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 25px;
+  margin: 3px;
+  padding: 0px 3px 0px 3px;
+  width: auto;
+}
+#main-modal div .form-group div .skill-input {
+  width: 200%;
+  margin-top: 10px;
+}
+
+.general-body {
+  margin: 0;
+  background-color: #14151f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#userMainInfo {
+  color: white;
+  background-color: #1c1d2b;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#userMainInfo header img {
+  width: 100%;
+}
+#userMainInfo figure {
+  position: relative;
+}
+@media only screen and (min-width: 530px) {
+  #userMainInfo figure {
+    top: -140px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  #userMainInfo figure {
+    top: -110px;
+  }
+}
+#userMainInfo figure img {
+  width: 40%;
+  height: 40%;
+  border: solid 2px #404560;
+  border-radius: 5px;
+  border-radius: 200%;
+}
+#userMainInfo figure figcaption {
+  font-size: 2em;
+  font-weight: bolder;
+}
+#userMainInfo .userInfo {
+  position: relative;
+  top: -130px;
+  width: 100%;
+}
+#userMainInfo .userInfo .description textarea {
+  width: 70%;
+  max-height: max-content !important;
+}
+
+#userExperience {
+  color: white;
+  background-color: #1c1d2b;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#userExperience .titleStack {
+  position: relative;
+  top: -13px;
+  left: 3%;
+  max-width: fit-content;
+  background-color: #1c1d2b;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=index.css.map */
