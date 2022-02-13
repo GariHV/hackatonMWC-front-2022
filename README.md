@@ -2,18 +2,18 @@
 
 ## Index
 
-- [Introduction](#introduction).
+- [Introduction](#introduction)
 
--[Getting Started](#getting-started)
-  -[Prerequisites](#prerequisites)
--[Extras explanation](#extras-explanation)
-  -[Autocomplete function](#autocomplete-function)
-  -[Getting Started](#getting-started)
-  -[Getting Started](#getting-started)
-  -[Getting Started](#getting-started)
--[Getting Started](#getting-started)
--[Getting Started](#getting-started)
--[Getting Started](#getting-started)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Extras explanation](#extras-explanation)
+  - [Autocomplete function](#autocomplete-function)
+  - [Getting Started](#getting-started)
+  - [Getting Started](#getting-started)
+  - [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
 
 ## Introduction
 
